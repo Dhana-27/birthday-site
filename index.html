@@ -1,110 +1,12 @@
+<!-- Updated content to use correct Spotify track ID -->
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Happy Birthday ❤️</title>
-
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;500&display=swap" rel="stylesheet">
-
-<style>
-body {
-    margin: 0;
-    font-family: 'Poppins', sans-serif;
-    background: linear-gradient(to bottom, #2b0a0a, #5c1a1a);
-    color: white;
-    text-align: center;
-    overflow-x: hidden;
-}
-
-.container {
-    padding: 50px 20px;
-}
-
-h1 {
-    font-family: 'Playfair Display', serif;
-    font-size: 3rem;
-    margin-bottom: 10px;
-}
-
-.message {
-    font-size: 1.2rem;
-    max-width: 600px;
-    margin: 20px auto;
-    line-height: 1.6;
-}
-
-.heart {
-    font-size: 2rem;
-    animation: pulse 1.5s infinite;
-}
-
-@keyframes pulse {
-    0% { transform: scale(1); }
-    50% { transform: scale(1.2); }
-    100% { transform: scale(1); }
-}
-
-button {
-    margin-top: 20px;
-    padding: 12px 25px;
-    border: none;
-    background: #ff4d6d;
-    color: white;
-    font-size: 1rem;
-    border-radius: 25px;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-button:hover {
-    background: #ff1e4d;
-}
-
-.hidden {
-    display: none;
-}
-
-.song {
-    margin-top: 30px;
-}
-</style>
+    <title>Birthday Site</title>
 </head>
-
 <body>
-
-<div class="container">
-    <h1>Happy Birthday 🎂</h1>
-    <div class="heart">❤️</div>
-
-    <p class="message">
-        To someone who makes life feel like a soft melody…  
-        Just like "Cherry Wine," everything about you feels warm, calm, and beautiful.  
-        I hope your day is filled with happiness, love, and everything you deserve.  
-    </p>
-
-    <button onclick="showSurprise()">Click for a Surprise 💌</button>
-
-    <p id="surprise" class="hidden message">
-        You are truly special.  
-        And today is all about celebrating YOU 💖  
-        Stay the amazing person you are ✨
-    </p>
-
-    <div class="song">
-        <iframe style="border-radius:12px" 
-        src="https://open.spotify.com/embed/track/3C6FeWbJ6qkI8lC2bJj3Jv" 
-        width="300" height="80" frameBorder="0" allowfullscreen=""
-        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
-        </iframe>
-    </div>
-</div>
-
-<script>
-function showSurprise() {
-    document.getElementById("surprise").classList.remove("hidden");
-}
-</script>
-
+    <h1>Welcome to my Birthday Site!</h1>
+    <p>Listen to my favorite track:</p>
+    <iframe src="https://open.spotify.com/embed/track/5o5WaO9pzPhXSGIrTIYVce" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 </body>
 </html>
